@@ -20,3 +20,9 @@ function gcd(a, b) {
     document.getElementById("result").textContent = `The GCD of ${num1} and ${num2} is: ${gcdResult}`;
   }
   
+  function clearInputs() {
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    document.getElementById("result").textContent = "";
+  }
+    
